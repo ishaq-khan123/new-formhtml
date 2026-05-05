@@ -29,6 +29,7 @@ input{
     padding: 10px;
     border-radius: 5px;
     outline: none;
+    margin-top: 30px;
 }
 input:focus{
     border-color: blue;
@@ -37,4 +38,13 @@ input:focus{
     padding: 10px;
     border-radius: 5px;
     outline: none;
+    width: 39%;
+}
+.label-for:focus{
+    border-color: blue;
+}
+p{
+    display: inline-block;
+    font-size: 1.8rem;
+
 }
