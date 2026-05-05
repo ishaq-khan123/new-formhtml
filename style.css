@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #807e7e;
+}
+html{
+    font-size: 62.5%;
+}
+.main-container{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 60%;
+    background-color: #ffffff;
+}
+.main-container>h1{
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 8px;
+}
+.main-container>h1>span{
+    font-size: 2.2rem;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+input:focus{
+    border-color: blue;
+}
+.label-for{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
