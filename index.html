@@ -10,18 +10,43 @@
     <div class="main-container">
         <h1>Job Application <span>(Web)</span></h1>
 
-            First Name :<input type="text" placeholder="Enter First Name..." required size="40">
-            Last Name :<input type="text" placeholder="Enter Last Name..." required size="40"><br><br><br>
-            Your Email :<input type="email" placeholder="John@examplemail.com" required size="40">
-        <label class="label-for" for="Job" required >Job Role :</label>
+            <strong>First Name </strong> <input type="text" placeholder="Enter First Name..." required size="37">
+            <strong>Last Name </strong> <input type="text" placeholder="Enter Last Name..." required size="35"><br><br><br>
+            <strong>Your Email </strong> <input type="email" placeholder="John@examplemail.com" required size="37">
+
+        <label class="label-for" for="Job" required ><strong>Job Role </strong></label>
         <select class="label-for" id="Job" required>
+
             <option value="Civil engineer">Civil Engineer</option>
             <option value="mechinical engineer">Mechinical Engineer</option>
             <option value="Software Engineer">Software Engineer</option>
             <option value="Office Manager">Office Manager</option>
             <option value="Trainer">Trainer</option>
             <option value="Head Coach">Head Coach</option>
-        </select>
+        </select><br><br><br>
+        
+        <label for="textarea"><strong>Address </strong></label>
+        <textarea name="text" id="textarea" rows="5" cols="105"></textarea><br><br>
+
+        <label class="label-for" for="Job" required ><strong>City </strong></label>
+        <select class="label-for" id="Job" required>
+            <option value="Quetta">Quetta</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Faisalabad">Faisalabad</option>
+        </select> 
+
+        <strong>pin Code </strong> <input type="text" placeholder="Enter pin code..." required size="40"><br><br>
+
+        <label for="date"><strong>Date </strong></label>
+        <input class="label-for" type="date" required>
+        
+        <strong>Your CV </strong> <input class="file-input" type="file" required size="40"><br><br>
+        <div class="submit-btn-container">
+            <input class="submit-btn" type="submit" value="Apply Now">
+        </div>
     </div>
 </body>
 </html>
